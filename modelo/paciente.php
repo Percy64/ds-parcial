@@ -16,7 +16,9 @@ class paciente
             echo 'apellido'. $this->apellido . '<br>';
             echo 'documento'. $this->documento . '<br>';
             echo 'edad'. $this->edad . '<br>';
+            
             echo 'email'. $this->email . '<br>';
+            
             foreach ($this->listaturno as $tur) 
             {
                echo 'id: '. $tur->id . '<br>';
